@@ -1,0 +1,68 @@
+:root {
+  --bg_color: #494747;
+  --color: #312a2a;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  color: var(--color);
+  margin: 50px 0px;
+  img {
+    height: 24px;
+    width: 24px;
+  }
+  .container {
+    width: 90%;
+    .top {
+      display: flex;
+      justify-content: space-between;
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        h2 {
+          font-size: 15px;
+          color: var(--bg_color);
+        }
+        span {
+          color: var(--color);
+        }
+      }
+    }
+    hr {
+      margin: 50px 0;
+      height: 0;
+      border: 1px solid gray;
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        span {
+          font-size: 13px;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .social {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          cursor: pointer;
+        }
+        .link {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
